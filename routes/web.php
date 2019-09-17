@@ -11,8 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+require 'admin.php';
 
-Route::view('/admin', 'admin.dashboard.index');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
